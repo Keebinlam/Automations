@@ -1,0 +1,35 @@
+HTML = Hyper Text Markup Lang
+To build website
+
+Tags and Elements
+
+HTML makerup syntax
+
+<h1 = tag name
+</h1> = End tag
+
+class = "dnkjsndk" = attribute, allow to customize tag. assign value
+ all of it tother is a node
+
+ Tags-- 
+
+ <head> represent in the head section, for meta data
+ <body> Body of html doc
+ <header> contains layout about the body 
+ <artical> new for html5, contains clock entries, post
+ <p> paragraphns in an artical
+ <h1> :Heading which is headline or title of a page
+
+common in webscraper
+<div> a divider or natural container
+<nav> to spesifcy a speific region (page 1,2,3,4,5....)
+<li> list it, order list
+<a> Anchor, hyperlink to make link (Think Href) <a class="visually-hidden" href="#main-content">Skip to Main Content</a>
+
+<button> a button that can be click, commonly use in form
+<table> used for making tables in html page
+<td> "Table Data" represent a cell in a table
+<tr> "Table row element" a row of cells in a table
+<ul> unordered list, 
+<iframe> make is possible to embbed a page in a page "nested browsing" Makes webscraping tricking, sometime you have to switch from one frame to another 
+

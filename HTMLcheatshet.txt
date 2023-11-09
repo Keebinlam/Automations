@@ -33,3 +33,31 @@ common in webscraper
 <ul> unordered list, 
 <iframe> make is possible to embbed a page in a page "nested browsing" Makes webscraping tricking, sometime you have to switch from one frame to another 
 
+_____Tree structure for webscraping________
+
+Root Element = <artical>
+    artical (attribute/ Class= "main-artica" )
+    Element <h1> (text "titanic 1997"): which is the title
+    Element <p> (attribute class= "plot"), (Text = "84 years later"): which is the decription
+    Element <div> (attribute class= "full script"), (Text = "13 meters): which is the transcript
+
+attribute/ text node cannot have children. Parent nodes can have several child nodes
+
+_______Xpath - Syntax_________
+xpath stands for XML path Lang, it is a query lang for selecting node from a xml doc. But we can use it to select html pages or css selectors
+
+xpath syntax 
+A way to select an element use "//(tagname)" can be used to find all of that element. ie Picking a matching node with x tagname 
+//tagname
+We can also get the element by its position by using the square brackets [] and putting the position number within the brackects 
+//tagname[3] 
+We can also speific an element with a speific attribute
+//tagname[@attributeName="Value"]
+
+Can use functions for find elements 
+contain() = find text that contains value inside the parathensesis 
+example: //tagname[contains(@attributeName, "Value")]
+starts-with()
+
+Can also use and/or operators with xpath expression
+example: //tagname[(expression1) and (expression2)]

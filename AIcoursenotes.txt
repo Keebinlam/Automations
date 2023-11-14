@@ -1,0 +1,34 @@
+A to B is ML
+Having an input to generate an output 
+Machine learning is the field of study that give computers the ability to learn without being explicily programmed
+Example: House size | Bed rooms | ----> Price of home
+
+Data Science is having an a set of insights to make decisions. 
+Example: From the data, did you know, if a home is newly renovated, it is 15 percent more expensive
+Data science is the science of extracting knowledge and insight from data
+Not formalized meanings, ML and data Science
+
+Deep learning (Artifical Neural network)
+Tasks input A, outputs B,(estimated)
+Neural Network is just a big mathmatical equation (Given the input A, how do you compute B)
+
+How to be an AI company
+1) excute pilot projects to gain momentum
+2) Build an inhouse AI Team
+3) Provide broad AI training
+4) develop an AI strategy
+5) Develope interal and external communication
+
+Understand what AI can and cannot do
+Supervised learning: If you can do it 1 second of thought, we can probably now or soon to automate using Supervised learning. (Input to output mapping)
+Something it cant do is analyse a market and write a 50 page report. 
+Rules of thumb to help determine if it is a feasible project
+1) Learning a simple concept (1 second of thought)
+2) Lots of data Available, Lots of input A, and Labeling of B
+3) Does it require high accuracy 
+
+Strength and weakness
+ML tends to work well when learning simple concepts, and has lots of data
+ML tends to work poorly when learning complex concepts with little data, 
+also works poorly on new types of data (example, xrays from one hospital, and trying to use the same AI systems to a different hospital with a different way of taking xrays)
+A good AI team may be able to mitigate this issues, but it is not easy

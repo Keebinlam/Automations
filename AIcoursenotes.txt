@@ -1,3 +1,4 @@
+Week 1
 A to B is ML
 Having an input to generate an output 
 Machine learning is the field of study that give computers the ability to learn without being explicily programmed
@@ -32,3 +33,101 @@ ML tends to work well when learning simple concepts, and has lots of data
 ML tends to work poorly when learning complex concepts with little data, 
 also works poorly on new types of data (example, xrays from one hospital, and trying to use the same AI systems to a different hospital with a different way of taking xrays)
 A good AI team may be able to mitigate this issues, but it is not easy
+
+Week 2
+How to do an AI project
+Objective
+1) Workflow of the project
+2)Selecting an AI project
+3) organized data and Team for the project
+
+---Workflow for AI project
+Key steps
+1)Collect Data
+2) Train the model, use ML algo to learn A to B (iterate many time)
+3) Deploy model (to ship to user, get data back, and maintain/update model to new data)
+
+
+---Workflow for Data science project (output is to set up actionable insights)
+Key steps 
+1) collect data
+2) Analyze Data 
+3) Distill idea and suggest hypothese/action (reanalze data after implementation)
+
+How to choose an AI project
+find the intersection of what AI can do, and what the company values
+Ai Experts has a good idea of what AI can and cannot do
+Domain expert have best sense what is value for the business
+Bring team comprising AI and domain brainstorm and idenfity projects
+"cross functional teams"
+
+---- Brainstorming framework
+1)Think about automating tasks rather than automating jobs 
+2) what are the drivers of business values
+3) What are the main pain points in your business
+You can make progress without big data
+Having more data almost never hurts
+data makes business defensable
+you can make progress can still make progress
+
+---- Double check if the project is worth committing months to weeks of effort
+1) Due diligence on projects (spend time making sure it is feasible)
+Technical diligence
+- Technical diligence is the process of making sure that the AI system you hope built is doable
+- How much is data is needed
+- Engineering timeline, how much time and people to make this project
+
+Business diligience 
+1) Making sure that the AI project is actually valable for the team (value driving)
+-  Lower cost 
+- increase revenue
+- launch a new product or business
+
+Creating estimated value of project to model economic esstation before commiting to project
+
+Ethical diligence
+- make sure what is being built make the world better 
+
+Build Vs buy
+ML projects can be in house or outsourced
+DS project are more commenly inhouse (requires deep day to day knowledge to extract meaning from informaton)
+Some thing will be industry standard and avoid building those 
+***Build the things that are specialze to you
+Buy things that are industry standard
+
+
+Working with an AI team
+** Take course on Deep Learning / Machine Learning
+1) speifiy your acceptance criteria
+2)Provide AI team a dateset on which to measure their performance (TEST SET) In stattical manner
+
+How AI think about data
+- Training set and test set
+Training set give inputs and their outcomes (Learn)
+Test set, give AI data, and the data that comes out from the test is the test set.
+Validation test set is the second test set
+
+some pitfalls
+1) limitations of ML
+2) Not enough data
+3) Mislabling data
+4) data is ambigious
+
+Technical tools AI teams use
+Machine Learning Frameworks: Tensorflow, Pytorch, Keras, Mxnet, CNTK, Caffe, Paddlepaddle, Scikit-learn, R, weka 
+These are open source machine learning frameworks
+
+Research publication: Arxiv
+
+Open source repsorityy
+github
+
+
+
+
+
+
+
+
+
+

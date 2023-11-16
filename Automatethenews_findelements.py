@@ -61,7 +61,7 @@ from selenium.webdriver.chrome.service import Service
 import pandas as pd
 
 website = 'https://www.thesun.co.uk/sport/football/'
-path = '/Applications/Python 3.12/chromedriver'
+path = 
 
 service = Service(executable_path=path)
 driver = webdriver.Chrome(service=service)
